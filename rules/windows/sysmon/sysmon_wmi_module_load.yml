@@ -28,6 +28,7 @@ detection:
             - '\fastprox.dll'
     filter:
         Image|endswith:
+            - '\WmiPrvSe.exe'
             - '\WmiPrvSE.exe'
             - '\WmiAPsrv.exe'
             - '\svchost.exe'
