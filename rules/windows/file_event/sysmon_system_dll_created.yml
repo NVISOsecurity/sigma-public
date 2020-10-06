@@ -4,7 +4,8 @@ status: experimental
 description: |
   Detects new DLLs written to the Windows system folders.
   Can be used to gain persistence on a system by exploiting DLL hijacking vulnerabilities.
-references: https://blog.nviso.eu/2020/10/06/mitre-attack-turned-purple-part-1-hijack-execution-flow
+references:
+  - https://blog.nviso.eu/2020/10/06/mitre-attack-turned-purple-part-1-hijack-execution-flow
 tags:
   - attack.t1574.001
   - attack.t1574.002
